@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oGameController",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oPopUp",
+  "eventList":[],
   "managed":true,
-  "name":"oGameController",
+  "name":"oPopUp",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
