@@ -10,3 +10,5 @@ if (keyboard_check_pressed(vk_left)) {
 
 // Clamp target to room bounds
 target_x = clamp(target_x, 0, room_width - view_wport[0]);
+
+

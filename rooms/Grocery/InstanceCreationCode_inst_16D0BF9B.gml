@@ -1,0 +1,1 @@
+item_id = "egg_chicken";
