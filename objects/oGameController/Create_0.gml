@@ -1,4 +1,7 @@
 global.item_database = scr_create_item_database();
+global.selected_items = [];
+global.show_popup = false;
+global.popup_item = noone;
 
 // Force asset inclusion
 var _force_sprites = [

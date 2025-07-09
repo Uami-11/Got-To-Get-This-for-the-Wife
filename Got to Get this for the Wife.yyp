@@ -55,6 +55,7 @@
     {"id":{"name":"s_milk_malk","path":"sprites/s_milk_malk/s_milk_malk.yy",},},
     {"id":{"name":"s_milk_swamp","path":"sprites/s_milk_swamp/s_milk_swamp.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
+    {"id":{"name":"sList","path":"sprites/sList/sList.yy",},},
     {"id":{"name":"sPlaceholder","path":"sprites/sPlaceholder/sPlaceholder.yy",},},
   ],
   "resourceType":"GMProject",

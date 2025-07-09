@@ -5,6 +5,7 @@ function scr_place_item(category, item_data, x, y) {
     inst.item_desc = item_data.desc;
     inst.item_category = category;
     inst.goblin = item_data.goblin;
+    inst.item_opinion = item_data.opinion;
 
     // Set its sprite
     var spr_name = "s_" + item_data.id; // e.g., s_milk_bone

@@ -19,6 +19,7 @@ if (!item_loaded && item_id != "") {
                 item_desc = item_data.desc;
                 item_category = category;
                 goblin = item_data.goblin;
+                item_opinion = item_data.opinion;
 
                 var spr_name = "s_" + item_id;
 				show_debug_message(spr_name);
