@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"s_egg_chicken",
+  "%Name":"s_eggs_chicken",
   "bboxMode":0,
   "bbox_bottom":166,
   "bbox_left":58,
@@ -22,7 +22,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"5e74a648-70b2-487e-95da-0a77f0ffa3bd","blendMode":0,"displayName":"default","isLocked":false,"name":"5e74a648-70b2-487e-95da-0a77f0ffa3bd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"s_egg_chicken",
+  "name":"s_eggs_chicken",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -34,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"s_egg_chicken",
+    "%Name":"s_eggs_chicken",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"s_egg_chicken",
+    "name":"s_eggs_chicken",
     "playback":1,
     "playbackSpeed":7.0,
     "playbackSpeedType":0,
@@ -72,10 +72,10 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"45116509-277c-432c-a66f-724c322f4962","path":"sprites/s_egg_chicken/s_egg_chicken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"45116509-277c-432c-a66f-724c322f4962","path":"sprites/s_eggs_chicken/s_eggs_chicken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"bacc1ef2-03da-4770-b6ec-57c1173826c2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02768f84-cf3a-4a53-9677-ddd602ecad2b","path":"sprites/s_egg_chicken/s_egg_chicken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02768f84-cf3a-4a53-9677-ddd602ecad2b","path":"sprites/s_eggs_chicken/s_eggs_chicken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"710d7993-147b-4e4b-a47b-8ac28f2f34b1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

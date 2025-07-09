@@ -13,9 +13,9 @@ function scr_create_item_database(){
 
     // Eggs category
     var eggs = [
-        { id: "egg_chicken", name: "Chicken Eggs", desc: "Simple and smooth.", goblin: false, opinion: "ball" },
-        { id: "egg_ostrich", name: "Ostrich Egg", desc: "Big egg", goblin: true, opinion: "ball" },
-        { id: "egg_star", name: "Stars as Eggs", desc: "Stars in a cartoon", goblin: true, opinion: "ball" }
+        { id: "eggs_chicken", name: "Chicken Eggs", desc: "Simple and smooth.", goblin: false, opinion: "ball" },
+        { id: "eggs_ostrich", name: "Ostrich Egg", desc: "Big egg", goblin: true, opinion: "ball" },
+        { id: "eggs_star", name: "Stars as Eggs", desc: "Stars in a cartoon", goblin: true, opinion: "ball" }
     ];
     ds_map_add(db, "eggs", eggs);
 
@@ -47,9 +47,9 @@ function scr_create_item_database(){
 
     // Vegetables
     var vegetables = [
-        { id: "vegetable_carrot", name: "Carrot", desc: "Normal carrot", goblin: false, opinion: "ball"},
-        { id: "vegetable_evilbroccoli", name: "Evil Broccoli", desc: "Mean and green", goblin: true, opinion: "ball"},
-        { id: "vegetable_bugcucumber", name: "Bug Cucumber", desc: "Cucumber shaped like bugs", goblin: false, opinion: "ball"}
+        { id: "vegetables_carrot", name: "Carrot", desc: "Normal carrot", goblin: false, opinion: "ball"},
+        { id: "vegetables_evilbroccoli", name: "Evil Broccoli", desc: "Mean and green", goblin: true, opinion: "ball"},
+        { id: "vegetables_bugcucumber", name: "Bug Cucumber", desc: "Cucumber shaped like bugs", goblin: false, opinion: "ball"}
     ];
     ds_map_add(db, "vegetables", vegetables);
 

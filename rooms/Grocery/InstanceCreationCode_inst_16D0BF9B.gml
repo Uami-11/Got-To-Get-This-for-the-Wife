@@ -1,1 +1,1 @@
-item_id = "egg_chicken";
+item_id = "eggs_chicken";

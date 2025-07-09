@@ -38,15 +38,31 @@ draw_set_valign(fa_bottom);
 draw_text(x + popup_width / 2, y + popup_height - 40, item_opinion);
 
 // Draw "Select" button
+
+// Determine if this item is already selected
+var selected = false;
+var item_id = popup_item.item_id;
+if (!is_string(item_id)) exit;
+    
+var parts = string_split(item_id, "_");
+if (array_length(parts) < 2) exit;
+
+var category = parts[0];
+
+
+if (ds_map_exists(global.selected_items, category)) {
+    selected = (global.selected_items[? category] == item_id);
+}
+
+
 var bx = (1280 + popup_width) / 2 - 180;
 var by = (720 + popup_height) / 2 - 60;
 var bw = 160;
 var bh = 40;
 
-draw_set_color(c_lime);
+draw_set_color(selected ? c_red : c_lime);
 draw_rectangle(bx, by, bx + bw, by + bh, false);
-
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-draw_text(bx + bw / 2, by + bh / 2, "Select");
+draw_text(bx + bw / 2, by + bh / 2, selected ? "Unselect" : "Select");
