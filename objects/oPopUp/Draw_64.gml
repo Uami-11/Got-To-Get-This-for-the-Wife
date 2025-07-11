@@ -5,6 +5,7 @@ x = (1280 - popup_width) / 2;
 y = (720 - popup_height) / 2;
 
 // Draw background
+
 draw_set_color(c_black);
 draw_set_alpha(0.8);
 draw_rectangle(x, y, x + popup_width, y + popup_height, false);

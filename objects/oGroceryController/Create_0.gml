@@ -3,12 +3,20 @@ show_debug_message("I am in the room!");
 if (!variable_global_exists("selected_items")) {
     global.selected_items = ds_map_create();
 	show_debug_message("global.selected_items created!");
-	global.selected_items[? "milk"] = "milk_bone";
 }
 global.show_popup = false;
 global.popup_item = noone;
 
+var all_categories = [
+    "milk", "eggs", "fruit", "bread",
+    "meat", "vegetables", "snacks", "condiments"
+];
+randomize();
+generate_grocery_list();
+
 alarm[0] = 1;
+
+
 
 // Force asset inclusion
 var _force_sprites = [

@@ -4,8 +4,8 @@ if (!variable_global_exists("selected_items")) {
 }
 
 
-var margin = 20;
-var spr_size = 64;
+var margin = 290;
+var spr_size = 175;
 var i = 0;
 
 var cat = ds_map_find_first(global.selected_items);
@@ -18,7 +18,7 @@ while (cat != undefined) {
     sprite_index = spr_index;
 
     if (spr_index != -1) {
-        draw_sprite(sprite_index, -1, margin + i * (spr_size + 10), margin);
+        draw_sprite(sprite_index, -1, margin + i * (spr_size + 10) - 175, margin-200);
     }
 
     i++;
