@@ -37,8 +37,10 @@
   "resources":[
     {"id":{"name":"oCameraController","path":"objects/oCameraController/oCameraController.yy",},},
     {"id":{"name":"oCheckoutButton","path":"objects/oCheckoutButton/oCheckoutButton.yy",},},
+    {"id":{"name":"oDialougeBox","path":"objects/oDialougeBox/oDialougeBox.yy",},},
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},},
     {"id":{"name":"oGroceryController","path":"objects/oGroceryController/oGroceryController.yy",},},
+    {"id":{"name":"oHomeController","path":"objects/oHomeController/oHomeController.yy",},},
     {"id":{"name":"oItem","path":"objects/oItem/oItem.yy",},},
     {"id":{"name":"oList","path":"objects/oList/oList.yy",},},
     {"id":{"name":"oPopUp","path":"objects/oPopUp/oPopUp.yy",},},
@@ -59,6 +61,7 @@
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sCheckout","path":"sprites/sCheckout/sCheckout.yy",},},
     {"id":{"name":"sDum","path":"sprites/sDum/sDum.yy",},},
+    {"id":{"name":"sHomeBackground","path":"sprites/sHomeBackground/sHomeBackground.yy",},},
     {"id":{"name":"sList","path":"sprites/sList/sList.yy",},},
     {"id":{"name":"sPlaceholder","path":"sprites/sPlaceholder/sPlaceholder.yy",},},
   ],

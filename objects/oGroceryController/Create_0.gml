@@ -16,7 +16,7 @@ generate_grocery_list();
 
 alarm[0] = 1;
 
-
+global.game_time = 0;
 
 // Force asset inclusion
 var _force_sprites = [
