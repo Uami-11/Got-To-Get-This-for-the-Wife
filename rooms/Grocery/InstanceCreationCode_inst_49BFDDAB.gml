@@ -1,0 +1,1 @@
+item_id = "vegetables_carrot"

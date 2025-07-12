@@ -35,31 +35,30 @@ var _force_sprites = [
     // s_eggs_star,
 
     // Fruit
-    // s_fruit_apple,
-    // s_fruit_worm,
+    s_fruit_apple,
+    s_fruit_worm,
     // s_fruit_dragonfruit,
     // s_fruit_fungus,
 
     // Bread
-    // s_bread_bread,
-    // s_bread_exbread,
-    // s_bread_car,
-    // s_bread_glass,
+    s_bread_bread,
+    s_bread_exbread,
+    s_bread_car,
 
     // Meat
-    // s_meat_chicken,
-    // s_meat_beef,
-    // s_meat_rodent,
+    s_meat_chicken,
+    s_meat_beef,
+    s_meat_rodent,
 
     // Vegetables
-    // s_vegetable_carrot,
-    // s_vegetable_evilbroccoli,
-    // s_vegetable_bugcucumber,
+    s_vegetables_carrot,
+    s_vegetables_evilbroccoli,
+    s_vegetables_bugcucumber,
 
     // Snacks
-    // s_snacks_chips,
-    // s_snacks_fflies,
-    // s_snacks_children,
+    s_snacks_chips,
+    s_snacks_fflies,
+    s_snacks_children,
 
     // Condiments
     // s_condiments_ketchup,
