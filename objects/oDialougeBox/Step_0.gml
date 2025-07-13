@@ -1,6 +1,6 @@
-// Handle text typing effect
 if (!is_done && current_line < array_length(dialogue_lines)) {
     frame_count++;
+	//get_mood(global.mood);
     if (frame_count >= text_speed) {
         frame_count = 0;
         if (char_index < string_length(dialogue_lines[current_line])) {
@@ -10,9 +10,8 @@ if (!is_done && current_line < array_length(dialogue_lines)) {
     }
 }
 
-if (mouse_check_button_pressed(mb_left)){
-        if (is_done) {
-        // Already done
+if (mouse_check_button_pressed(mb_left)) {
+    if (is_done) {
         exit;
     }
 
@@ -31,4 +30,9 @@ if (mouse_check_button_pressed(mb_left)){
             is_done = true;
         }
     }
+}
+
+if (is_done && !room_transition_started) {
+    room_transition_started = true;
+    alarm[0] = 30; // Delay
 }

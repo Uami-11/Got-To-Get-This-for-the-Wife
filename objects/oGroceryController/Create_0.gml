@@ -18,6 +18,8 @@ alarm[0] = 1;
 
 global.game_time = 0;
 
+draw_set_font(FontStore)
+
 // Force asset inclusion
 var _force_sprites = [
 
@@ -31,13 +33,13 @@ var _force_sprites = [
 
     // Eggs
     s_eggs_chicken,
-    // s_eggs_ostrich,
-    // s_eggs_star,
+    s_eggs_ostrich,
+    s_eggs_star,
 
     // Fruit
     s_fruit_apple,
     s_fruit_worm,
-    // s_fruit_dragonfruit,
+    s_fruit_dragonfruit,
     // s_fruit_fungus,
 
     // Bread
@@ -61,7 +63,7 @@ var _force_sprites = [
     s_snacks_children,
 
     // Condiments
-    // s_condiments_ketchup,
-    // s_condiments_devilsauce,
-    // s_condiments_metalicflakes
+    s_condiments_ketchup,
+    s_condiments_devilsauce,
+    s_condiments_metalicflakes
 ];

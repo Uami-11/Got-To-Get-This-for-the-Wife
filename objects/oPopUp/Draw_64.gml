@@ -18,25 +18,27 @@ var item_opinion = popup_item.item_opinion;
 var item_sprite = popup_item.sprite_index;
 
 // Draw item name (header)
+draw_set_font(FontDefault);
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);
 draw_set_color(c_white);
 draw_text(x + popup_width / 2, y + 20, item_name);
 
+draw_set_font(FontStore);
 // Draw sprite (right side)
 var spr_w = sprite_get_width(item_sprite);
 var spr_h = sprite_get_height(item_sprite);
 var frame = floor(popup_anim_frame);
-draw_sprite(item_sprite, frame, x + popup_width - spr_w - 40, y + 120);
+draw_sprite(item_sprite, frame, x + popup_width - spr_w + 100, y + 120);
 
 // Draw description (left side)
 draw_set_halign(fa_left);
 draw_text(x + 40, y + 120, item_desc);
 
-// Draw opinion (bottom center)
-draw_set_halign(fa_center);
+// Draw opinion (bottom left)
+draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
-draw_text(x + popup_width / 2, y + popup_height - 40, item_opinion);
+draw_text(x + 40, y + popup_height - 40, item_opinion);
 
 // Draw "Select" button
 

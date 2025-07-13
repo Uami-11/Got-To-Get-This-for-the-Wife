@@ -1,0 +1,1 @@
+ds_map_clear(global.selected_items);

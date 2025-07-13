@@ -9,7 +9,7 @@ panel_h = 360;
 
 // Closed position (bottom left, mostly hidden)
 closed_x = 20;
-closed_y = 720 - 60; // only top 60px visible
+closed_y = 720 - 90; // only top 60px visible
 
 // Open position (up and slightly right)
 open_x = 70;

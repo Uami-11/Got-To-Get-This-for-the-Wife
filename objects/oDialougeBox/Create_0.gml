@@ -9,3 +9,4 @@ text_speed = 2; // characters per step
 frame_count = 0;
 
 is_done = false;
+room_transition_started = false;
